@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# TodoMatic: Your Personal Task Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TodoMatic is a simple yet powerful task management application designed to help you stay organized and focused on your daily tasks. With TodoMatic, you can easily add, manage, and track your tasks, ensuring that you can focus on what truly matters.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Read Tasks**: Easily read a list of tasks that you need to complete.
+- **Add Tasks**: Add new tasks to your list using the mouse or keyboard.
+- **Mark Tasks as Completed**: Mark any task as completed, helping you keep track of your progress.
+- **Delete Tasks**: Remove any task that is no longer relevant or needed.
+- **Edit Tasks**: Edit any task details directly from the list.
+- **View Tasks**: Choose to view all tasks, only the active tasks, or only the completed tasks.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To get started with TodoMatic, follow these simple steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Installation**: Clone the repository or download the source code.
+2. **Setup**: Ensure you have Node.js and npm installed on your system. Run `npm install` to install the necessary dependencies.
+3. **Run**: Start the application by running `npm start`.
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Adding a Task
 
-### `npm run build`
+To add a new task, simply type the task description into the input field and click the "Add" button or press Enter on your keyboard.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Marking a Task as Completed
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To mark a task as completed, click on the checkbox next to the task or use the keyboard shortcut (Enter key).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Deleting a Task
 
-### `npm run eject`
+To delete a task, click on the delete button next to the task or use the keyboard shortcut (Delete key).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Editing a Task
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To edit a task, click on the task text to edit it directly.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Viewing Tasks
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Use the filter buttons to view:
 
-## Learn More
+- **All Tasks**: See all tasks in your list.
+- **Active Tasks**: View only the tasks that are not yet completed.
+- **Completed Tasks**: View only the tasks that have been marked as completed.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions are welcome! If you find a bug or have a feature request, please open an issue on our GitHub repository. If you'd like to contribute code, please fork the repository and submit a pull request.
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
